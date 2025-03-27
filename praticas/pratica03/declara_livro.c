@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main (){
-unsigned long int ISBN = 0000000000000;
-int paginas = 000;
-float preco = 0000.00;
-int ano = 0000;
+long int ISBN = 0;
+int paginas = 0;
+float preco = 0;
+int ano = 0;
 
 printf("ISBN: %013lu\n", ISBN);
 printf("Num. Paginas: %03i\n", paginas);
